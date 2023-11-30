@@ -173,8 +173,7 @@ export default class BaseTags extends Vue {
 .tags {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-flow: row wrap;
   row-gap: 5px;
 }
 </style>

@@ -162,7 +162,7 @@
 
 <script lang='ts'>
 import { Component, Vue } from 'vue-property-decorator'
-import BaseTags from '~/components/common/baseTags/BaseTags.vue'
+import BaseTags from '@/components/common/tags/BaseTags.vue'
 import IBaseTags from '@/types/baseTags'
 @Component({
   name: 'HomePage',
