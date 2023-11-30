@@ -1,0 +1,94 @@
+.pointer {
+  cursor: pointer;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.scroll {
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    opacity: .5;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: $light-gray-4;
+    border: solid 1px $light-gray-5;
+    opacity: .5;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $gray-4;
+    border: solid 1px $gray-3;
+    border-radius: 6px;
+    opacity: .5;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.grid {
+  display: grid;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.table-row-pointer {
+  .tr {
+    cursor: pointer;
+  }
+}
+
+@for $height from 1 through 100 {
+  .h-#{$height} {
+    height: 1% * $height;
+  }
+}
+
+@for $width from 1 through 100 {
+  .w-#{$width} {
+    width: 1% * $width;
+  }
+}

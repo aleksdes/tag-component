@@ -1,0 +1,10 @@
+node_modules
+build
+dist
+.eslintrc.js
+*.test.js
+*.spec.js
+*.unit.js
+*.e2e.js
+*.config.js
+package-lock.json

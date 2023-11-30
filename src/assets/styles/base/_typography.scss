@@ -1,0 +1,84 @@
+@import './fonts';
+
+body #app {
+  color: $dark-black;
+  font-family: $font-family-brutaltype;
+
+  .text-white {
+    color: white;
+  }
+
+  .text-gray {
+    color: $light-gray;
+  }
+
+  .text-gray-2 {
+    color: $light-gray-2;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+@for $size from 6 through 80 {
+  .fs-#{$size} {
+    font-size: 1px * $size;
+  }
+}
+
+@for $weight from 1 through 9 {
+  .fw-#{$weight} {
+    font-weight: 100 * $weight;
+  }
+}
+
+@for $spacing from -10 through 10 {
+  .ls-#{$spacing} {
+    letter-spacing: 1px * $spacing;
+  }
+}
+
+@for $height from 0 through 100 {
+  .lh-#{$height} {
+    line-height: 1px * $height;
+  }
+}
+
+@for $opacity from 0 through 10 {
+  .opacity-#{$opacity} {
+    opacity: 0.1 * $opacity;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  font-weight: 600;
+  color: $dark-black;
+}
+
+.page-title,
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1.1em;
+}

@@ -1,0 +1,27 @@
+.notifications {
+  .vue-notification-wrapper {
+    & > .vue-notification {
+      padding: 10px;
+      margin: 0 5px 5px;
+      font-size: 12px;
+      color: $body-color;
+      background: $info-bg-notify;
+      border-left: 5px solid $info-border-notify;
+
+      &.warn {
+        background: $warn-bg-notify;
+        border-left-color: $warn-border-notify;
+      }
+
+      &.error {
+        background: $error-bg-notify;
+        border-left-color: $error-border-notify;
+      }
+
+      &.success {
+        background: $success-bg-notify;
+        border-left-color: $success-border-notify;
+      }
+    }
+  }
+}

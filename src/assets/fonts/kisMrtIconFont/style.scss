@@ -1,0 +1,325 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?7ve4u6');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?7ve4u6#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?7ve4u6') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?7ve4u6') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?7ve4u6##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="kis-"], [class*=" kis-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.kis-windows {
+  &:before {
+    content: $kis-windows; 
+  }
+}
+.kis-user-circle {
+  &:before {
+    content: $kis-user-circle; 
+  }
+}
+.kis-user {
+  &:before {
+    content: $kis-user; 
+  }
+}
+.kis-tower-signal {
+  &:before {
+    content: $kis-tower-signal; 
+  }
+}
+.kis-tower {
+  &:before {
+    content: $kis-tower; 
+  }
+}
+.kis-text-file {
+  &:before {
+    content: $kis-text-file; 
+  }
+}
+.kis-stack-sheets {
+  &:before {
+    content: $kis-stack-sheets; 
+  }
+}
+.kis-send-arrow-up {
+  &:before {
+    content: $kis-send-arrow-up; 
+  }
+}
+.kis-route {
+  &:before {
+    content: $kis-route; 
+  }
+}
+.kis-question {
+  &:before {
+    content: $kis-question; 
+  }
+}
+.kis-paper-snake {
+  &:before {
+    content: $kis-paper-snake; 
+  }
+}
+.kis-open-in-new-tab {
+  &:before {
+    content: $kis-open-in-new-tab; 
+  }
+}
+.kis-mileage {
+  &:before {
+    content: $kis-mileage; 
+  }
+}
+.kis-message {
+  &:before {
+    content: $kis-message; 
+  }
+}
+.kis-loock {
+  &:before {
+    content: $kis-loock; 
+  }
+}
+.kis-lattice {
+  &:before {
+    content: $kis-lattice; 
+  }
+}
+.kis-headphones {
+  &:before {
+    content: $kis-headphones; 
+  }
+}
+.kis-geolocation {
+  &:before {
+    content: $kis-geolocation; 
+  }
+}
+.kis-gear-outline {
+  &:before {
+    content: $kis-gear-outline; 
+  }
+}
+.kis-format-list-text {
+  &:before {
+    content: $kis-format-list-text; 
+  }
+}
+.kis-format-list-bulleted {
+  &:before {
+    content: $kis-format-list-bulleted; 
+  }
+}
+.kis-floppy {
+  &:before {
+    content: $kis-floppy; 
+  }
+}
+.kis-flag {
+  &:before {
+    content: $kis-flag; 
+  }
+}
+.kis-file-ok {
+  &:before {
+    content: $kis-file-ok; 
+  }
+}
+.kis-file-alert {
+  &:before {
+    content: $kis-file-alert; 
+  }
+}
+.kis-drawing-pin {
+  &:before {
+    content: $kis-drawing-pin; 
+  }
+}
+.kis-document-edit {
+  &:before {
+    content: $kis-document-edit; 
+  }
+}
+.kis-document-bookmark {
+  &:before {
+    content: $kis-document-bookmark; 
+  }
+}
+.kis-danger {
+  &:before {
+    content: $kis-danger; 
+  }
+}
+.kis-close-circle-outline {
+  &:before {
+    content: $kis-close-circle-outline; 
+  }
+}
+.kis-circle-warning {
+  &:before {
+    content: $kis-circle-warning; 
+  }
+}
+.kis-circle-time-arrow {
+  &:before {
+    content: $kis-circle-time-arrow; 
+  }
+}
+.kis-circle-time {
+  &:before {
+    content: $kis-circle-time; 
+  }
+}
+.kis-circle-stop {
+  &:before {
+    content: $kis-circle-stop; 
+  }
+}
+.kis-circle-search {
+  &:before {
+    content: $kis-circle-search; 
+  }
+}
+.kis-circle-plus {
+  &:before {
+    content: $kis-circle-plus; 
+  }
+}
+.kis-circle-ok {
+  &:before {
+    content: $kis-circle-ok; 
+  }
+}
+.kis-circle-minus {
+  &:before {
+    content: $kis-circle-minus; 
+  }
+}
+.kis-circle-close {
+  &:before {
+    content: $kis-circle-close; 
+  }
+}
+.kis-camera-service {
+  &:before {
+    content: $kis-camera-service; 
+  }
+}
+.kis-camera-overview {
+  &:before {
+    content: $kis-camera-overview; 
+  }
+}
+.kis-camera-fill {
+  &:before {
+    content: $kis-camera-fill; 
+  }
+}
+.kis-camera-black {
+  &:before {
+    content: $kis-camera-black; 
+  }
+}
+.kis-camera {
+  &:before {
+    content: $kis-camera; 
+  }
+}
+.kis-calendar {
+  &:before {
+    content: $kis-calendar; 
+  }
+}
+.kis-buy {
+  &:before {
+    content: $kis-buy; 
+  }
+}
+.kis-bulhorn {
+  &:before {
+    content: $kis-bulhorn; 
+  }
+}
+.kis-book-open {
+  &:before {
+    content: $kis-book-open; 
+  }
+}
+.kis-arrow-up-right {
+  &:before {
+    content: $kis-arrow-up-right; 
+  }
+}
+.kis-arrow-up-left {
+  &:before {
+    content: $kis-arrow-up-left; 
+  }
+}
+.kis-arrow-up {
+  &:before {
+    content: $kis-arrow-up; 
+  }
+}
+.kis-arrow-right {
+  &:before {
+    content: $kis-arrow-right; 
+  }
+}
+.kis-arrow-left {
+  &:before {
+    content: $kis-arrow-left; 
+  }
+}
+.kis-arrow-down-right {
+  &:before {
+    content: $kis-arrow-down-right; 
+  }
+}
+.kis-arrow-down-left {
+  &:before {
+    content: $kis-arrow-down-left; 
+  }
+}
+.kis-arrow-down {
+  &:before {
+    content: $kis-arrow-down; 
+  }
+}
+.kis-anchor-closed {
+  &:before {
+    content: $kis-anchor-closed; 
+  }
+}
+.kis-anchor {
+  &:before {
+    content: $kis-anchor; 
+  }
+}
+.kis-alarm-clock {
+  &:before {
+    content: $kis-alarm-clock; 
+  }
+}
+

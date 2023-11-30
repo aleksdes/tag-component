@@ -1,0 +1,35 @@
+#app {
+  height: 100%;
+
+  .v-application--wrap {
+    height: 100vh;
+  }
+
+  .v-main,
+  .v-main__wrap {
+    height: 100%;
+  }
+
+  .dark::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  .dark::-webkit-scrollbar-track {
+    background: $dark-black-1;
+    border-left: 1px solid $dark-gray-1;
+  }
+
+  .dark::-webkit-scrollbar-thumb {
+    background: $dark-gray-2;
+    border: solid 3px $dark-black-1;
+    border-radius: 7px;
+  }
+
+  .dark::-webkit-scrollbar-thumb:hover {
+    background: white;
+  }
+
+  .v-pagination {
+    width: auto;
+  }
+}

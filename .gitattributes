@@ -1,0 +1,39 @@
+# Auto-detect
+* text=auto
+
+# Source code
+Dockerfile text
+*.css text
+*.graphql text
+*.html text
+*.js text
+*.json text
+*.md text
+*.vue text
+*.yml text
+
+# Configs
+.browserslistrc text
+.editorconfig text
+.eslintignore text
+.eslintrc text
+.gitattributes text
+.gitignore text
+.prettierignore text
+.prettierrc text
+.stylelintignore text
+.graphqlconfig text
+
+# Media
+*.avif binary
+*.gif binary
+*.ico binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.svg text
+*.webp binary
+
+# Fonts
+*.woff binary
+*.woff2 binary

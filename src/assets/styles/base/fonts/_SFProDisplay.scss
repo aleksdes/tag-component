@@ -1,0 +1,107 @@
+@font-face {
+  font-family: SFProDisplay;
+  src:
+    local('SFProDisplayThin'),
+    local('SFProDisplay-Thin'),
+    url('~@/assets/fonts/SFProDisplay/SFProDisplay-Thin.woff2') format('woff2'),
+    url('~@/assets/fonts/SFProDisplay/SFProDisplay-Thin.woff') format('woff');
+  font-weight: 100;
+  font-display: auto;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SFProDisplay;
+  src:
+    local('SFProDisplayUltralight'),
+    local('SFProDisplay-Ultralight'),
+    url('~@/assets/fonts/SFProDisplay/SFProDisplay-Ultralight.woff2') format('woff2'),
+    url('~@/assets/fonts/SFProDisplay/SFProDisplay-Ultralight.woff') format('woff');
+  font-weight: 200;
+  font-display: auto;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SFProDisplay;
+  src:
+    local('SFProDisplayLight'),
+    local('SFProDisplay-Light'),
+    url('~@/assets/fonts/SFProDisplay/SFProDisplay-Light.woff2') format('woff2'),
+    url('~@/assets/fonts/SFProDisplay/SFProDisplay-Light.woff') format('woff');
+  font-weight: 300;
+  font-display: auto;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SFProDisplay;
+  src:
+    local('SFProDisplayRegular'),
+    local('SFProDisplay-Regular'),
+    url('~@/assets/fonts/SFProDisplay/SFProDisplay-Regular.woff2') format('woff2'),
+    url('~@/assets/fonts/SFProDisplay/SFProDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-display: auto;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SFProDisplay;
+  src:
+    local('SFProDisplayMedium'),
+    local('SFProDisplay-Medium'),
+    url('~@/assets/fonts/SFProDisplay/SFProDisplay-Medium.woff2') format('woff2'),
+    url('~@/assets/fonts/SFProDisplay/SFProDisplay-Medium.woff') format('woff');
+  font-weight: 500;
+  font-display: auto;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SFProDisplay;
+  src:
+    local('SFProDisplaySemibold'),
+    local('SFProDisplay-Semibold'),
+    url('~@/assets/fonts/SFProDisplay/SFProDisplay-Semibold.woff2') format('woff2'),
+    url('~@/assets/fonts/SFProDisplay/SFProDisplay-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-display: auto;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SFProDisplay;
+  src:
+    local('SFProDisplayBold'),
+    local('SFProDisplay-Bold'),
+    url('~@/assets/fonts/SFProDisplay/SFProDisplay-Bold.woff2') format('woff2'),
+    url('~@/assets/fonts/SFProDisplay/SFProDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-display: auto;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SFProDisplay;
+  src:
+    local('SFProDisplayBlack'),
+    local('SFProDisplay-Black'),
+    url('~@/assets/fonts/SFProDisplay/SFProDisplay-Black.woff2') format('woff2'),
+    url('~@/assets/fonts/SFProDisplay/SFProDisplay-Black.woff') format('woff');
+  font-weight: 800;
+  font-display: auto;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SFProDisplay;
+  src:
+    local('SFProDisplayHeavy'),
+    local('SFProDisplay-Heavy'),
+    url('~@/assets/fonts/SFProDisplay/SFProDisplay-Heavy.woff2') format('woff2'),
+    url('~@/assets/fonts/SFProDisplay/SFProDisplay-Heavy.woff') format('woff');
+  font-weight: 900;
+  font-display: auto;
+  font-style: normal;
+}
